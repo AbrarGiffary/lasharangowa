@@ -18,6 +18,7 @@ export default function HistoryPage() {
     <div className="history-container">
       <main className="main-content">
         <div className="topbar">
+          <input type="text" placeholder="Search" className="search-bar" />
           <div className="top-icons">
             <input type="text" placeholder="Search by Name or roll." className="class-filter" />
             <select className="class-dropdown">
@@ -30,7 +31,7 @@ export default function HistoryPage() {
 
         <div className="status-labels">
           <span className="dot done-dot"></span> Done
-          <span className="dot onprocess-dot" style={{ marginLeft: "10px" }}></span> On Process
+          <span className="dot onprocess-dot" style={{ marginLeft: "20px" }}></span> On Process
         </div>
 
         <div className="history-layout">
@@ -48,7 +49,7 @@ export default function HistoryPage() {
           </div>
 
           <div className="progress-container">
-            <div className="progress-title">overall Task</div>
+            <div className="progress-title">OVERALL TASK</div>
             <div className="progress-chart">
               <svg viewBox="0 0 36 36" className="circular-chart">
                 <path
@@ -68,8 +69,8 @@ export default function HistoryPage() {
                 <text x="18" y="22" className="percentage">83%</text>
               </svg>
               <div className="labels">
-                <span>Done 83%</span>
-                <span>unfinished 17%</span>
+                <span className="done-label">Done 83%</span>
+                <span className="unfinished-label">unfinished 17%</span>
               </div>
             </div>
           </div>
