@@ -1,0 +1,170 @@
+.history-container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px 40px;
+    position: relative;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f5;
+  }
+  
+  .top-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .class-filter {
+    padding: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f5;
+    margin-right: 10px;
+  }
+  
+  .class-dropdown {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f5;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .status-labels {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .done-dot {
+    background-color: #d6f9ea;
+  }
+  
+  .onprocess-dot {
+    background-color: #fbdada;
+  }
+  
+  .history-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #e0fef0;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+  }
+  
+  .card.done {
+    background-color: #d6f9ea;
+  }
+  
+  .card.onprocess {
+    background-color: #fbdada;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5px;
+  }
+  
+  .card-grade {
+    font-weight: 500;
+  }
+  
+  .card-year {
+    font-size: 13px;
+  }
+  
+  .progress-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 160px;
+  }
+  
+  .progress-title {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .circular-chart {
+    max-width: 100px;
+    max-height: 100px;
+    /* transform: rotate ; */
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke: #0b1f8f;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+  }
+  
+  .percentage {
+    fill: #0b1f8f;
+    font-size: 8px;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+  
+  .labels {
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
